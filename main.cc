@@ -1,6 +1,7 @@
 #include "insert.hpp"
 #include "bubbleSort.hpp"
 #include "quickSort.hpp"
+#include "mergeSort.hpp"
 
 using namespace std;
 
@@ -20,7 +21,9 @@ int main()
 	// int arr1[5] = {5,4,3,2,1};
 	// shellSort(arr1, sizeof(arr1)/sizeof(arr1[0]));
 	// Print(arr1, 5);
-	quickSort(arr, 0, 9);
+	// quickSort(arr, 0, 9);
+	// quickSort2(arr, 0, 9);
+	mergeSort(arr, 10);
 	Print(arr, 10);
 
 
